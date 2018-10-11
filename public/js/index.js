@@ -12,3 +12,7 @@ socket.on('disconnect',function () {
 socket.on('newMessage',function(message) {
     console.log('new Message has arrived',message)
 })
+
+socket.on('welcomeMessage', function(message) {
+    console.log(message);
+})
